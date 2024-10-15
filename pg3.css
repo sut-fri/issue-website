@@ -1,0 +1,66 @@
+/*red=#A02334
+cream=#FCFAEE
+gray=#3C3D37*/
+
+body {
+	background-color: #A02334;
+}
+
+.parent {
+	margin: 30px;
+}
+
+.home-button {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+	display: float;
+	text-align: left;
+	width: 40%;
+	height: fit-content;
+	padding-left: 30px;
+	cursor: pointer;
+}
+
+.ull a {
+	color: #FCFAEE;
+	font-family: Trebuchet MS, sans-serif;
+    font-size: 15vw;
+    text-decoration: none;
+}
+
+.img img {
+	display: block;
+	margin-left: auto;
+	border-radius: 25px;
+	width: 70%;
+	border: solid #FCFAEE 15px;
+}
+
+.page {
+	display: float;
+	position: absolute;
+	text-align: left;
+	width: 27%;
+	height: fit-content;
+}
+
+p {
+	color: #FCFAEE;
+	font-family: Trebuchet MS, sans-serif;
+    font-size: 4vw;
+}
+
+.small p {
+	display: float;
+	position: absolute;
+	text-align: right;
+	width: fit-content;
+	height: fit-content;
+	color: #FCFAEE;
+	margin-top: 20%;
+	font-family: Trebuchet MS, sans-serif;
+    font-size: 1.5vw;
+/*    transform: rotate(-90deg);*/
+/*    border: solid #FCFAEE 15px;*/
+}

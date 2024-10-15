@@ -1,0 +1,69 @@
+/*red=#A02334
+cream=#FCFAEE
+gray=#3C3D37*/
+
+body {
+	background-color: #A02334;
+}
+
+.parent {
+	margin: 30px;
+}
+
+.home-button {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+	display: float;
+	text-align: left;
+	width: 40%;
+	height: fit-content;
+	padding-left: 30px;
+	cursor: pointer;
+}
+
+.ull a {
+	color: #FCFAEE;
+	font-family: Trebuchet MS, sans-serif;
+    font-size: 15vw;
+    text-decoration: none;
+}
+
+.img img {
+	display: block;
+	margin-left: auto;
+	border-radius: 25px;
+	width: 70%;
+	border: solid #FCFAEE 15px;
+}
+
+.page {
+	display: float;
+	position: absolute;
+	text-align: left;
+	width: 30%;
+	height: fit-content;
+/*	border: solid #FCFAEE 15px;*/
+}
+
+p {
+	color: #FCFAEE;
+	font-family: Trebuchet MS, sans-serif;
+    font-size: 4vw;
+}
+
+h3 {
+	color: #FCFAEE;
+	font-family: Trebuchet MS, sans-serif;
+    font-size: 5vw;
+}
+
+.child {
+	display: float;
+	margin-left: auto;
+	padding: none;
+	position: absolute;
+    width: fit-content;
+    text-align: center;
+    margin-left: 65%;
+}

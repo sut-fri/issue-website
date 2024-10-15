@@ -1,0 +1,113 @@
+/*red=#A02334
+cream=#FCFAEE
+gray=#3C3D37*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: url(knit.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+}
+
+.stitch {
+    width: 5%;
+}
+
+.dropbtn {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 25vw;
+    color: #3C3D37;
+    text-decoration: none;
+    width: 70vw;
+    border: solid #3C3D37 10px;
+    text-align: left;
+    background-color: #FCFAEE;
+    margin-top: 100px;
+}
+
+.parent {
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+
+.dropdown:hover .child-right {
+  transform: rotate(90deg);
+}
+
+.dropdown {
+   text-align: center; 
+   float: center;
+   position: relative;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70vw;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #FCFAEE;
+  color: #3C3D37;
+  border: solid #3C3D37 5px;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 5vw;
+  z-index: 1;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px;
+}
+
+
+.dropdown-content a {
+  color: #3C3D37;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown :hover {
+    border-color: #FCFAEE;
+    background-color: #A02334;
+    color: #FCFAEE;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.dropbtn :hover {
+    background-color: transparent;
+    color: #FCFAEE;
+}
+
+.child-left {
+    flex: 1;
+    text-align: left;
+    width: fit-content;
+    float: left;
+}  
+
+.child-right {
+    transition: transform .5s ease-in-out;
+    flex: 1;
+    text-align: left;
+    width: fit-content;
+    float: right;
+    font-size: 5vw;
+    margin-right: 50px;
+}  
+
